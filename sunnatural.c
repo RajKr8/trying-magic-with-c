@@ -8,10 +8,10 @@ int main()
 
     for(count=1; count <= n; count++)
     {
-        sum = sum + count
+        sum = sum + count;
     }
 
-    printf("Sum of first %d natural numbers is: %d",n, sum)
+    printf("Sum of first %d natural numbers is: %d",n, sum);
 
     return 0;
 }
