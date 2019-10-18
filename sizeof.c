@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    printf("Size of char: %ld byte\n",size(char));
-    printf("Size of int: %ld bytes\n",size(int));
-    printf("Size of float: %ld bytes\n",size(float));
-    printf("Size of double: %ld bytes", size(double));
+    printf("Size of char: %ld byte\n",sizeof(char));
+    printf("Size of int: %ld bytes\n",sizeof(int));
+    printf("Size of float: %ld bytes\n",sizeof(float));
+    printf("Size of double: %ld bytes", sizeof(double));
     return 0;
 }
